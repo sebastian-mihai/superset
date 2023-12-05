@@ -99,6 +99,9 @@ WEBDRIVER_BASEURL = "http://superset:8088/"
 WEBDRIVER_BASEURL_USER_FRIENDLY = WEBDRIVER_BASEURL
 
 SQLLAB_CTAS_NO_LIMIT = True
+TALISMAN_ENABLED = False
+ENABLE_CORS = True
+HTTP_HEADERS={"X-Frame-Options":"ALLOWALL"}
 
 #
 # Optionally import superset_config_docker.py (which will have been included on
